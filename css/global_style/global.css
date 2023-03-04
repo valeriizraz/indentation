@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'Roboto sant-serif';
+  src: local('Inter Regular'), local('Inter-Regular'),
+      url(../../fonts/Roboto-Regular.woff2) format(woff2),
+      url(../../fonts/Roboto-Regular.woff) format(woff);
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto sant-serif';
+  src: local('Inter Italic'), local('Inter-Italic'),  
+      url(../../fonts/Roboto-Italic.woff2) format(woff2),
+      url(../../fonts/Roboto-Italic.woff) format(woff);
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto sant-serif';
+  src: local('Inter Bold'), local('Inter-Bold'),
+      url(../../fonts/Roboto-Bold.woff2) format(woff2),
+      url(../../fonts/Roboto-Bold.woff) format(woff);
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto sant-serif';
+  src: local('Inter Black'), local('Inter-Black'), 
+      url(../../fonts/Roboto-Black.woff2) format(woff2),
+      url(../../fonts/Roboto-Black.woff) format(woff);
+  font-weight: 900;
+  font-display: swap;
+}
+
+html {
+  box-sizing: border-box;
+  position: relative;
+}
+
+*,
+*before,
+*after {
+  box-sizing: inherit;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+
+  font-family: "Roboto sant-serif";
+  font-size: 20px;
+  font-weight: 400;
+
+  background-color: #F1F1F1;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, p, figure, figcaption {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+.visibility-hidden {
+  position: absolute !important;
+    clip: rect(1px 1px 1px 1px);/* IE6, IE7 */
+    clip: rect(1px 1px 1px 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.black {
+  font-weight: 900;
+}
+

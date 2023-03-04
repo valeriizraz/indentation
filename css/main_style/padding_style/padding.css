@@ -1,0 +1,11 @@
+.main__padding {
+  padding: 25px 30px;
+}
+
+.main__padding-text:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.main__padding-image {
+  margin-bottom: 30px;
+}

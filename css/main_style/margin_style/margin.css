@@ -1,0 +1,40 @@
+.main__margin {
+  padding: 25px 30px;
+}
+
+.main__margin-top {
+  margin-bottom: 30px;
+}
+
+.top__image {
+  width: 560px;
+  height: 415px;
+  padding: 10px;
+  margin-right: 30px;
+}
+
+.top__box-text {
+  width: 465px;
+  padding-top: 35px;
+  vertical-align: top;
+}
+
+.top__text:not(:last-child) {
+  padding-bottom: 30px;
+}
+
+.bottom__box-text {
+  width: 470px;
+  padding-top: 10px;
+  margin-right: 30px;
+  vertical-align: top;
+}
+
+.bottom__text:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.bottom__image {
+  width: 560px;
+  height: 279px;
+}

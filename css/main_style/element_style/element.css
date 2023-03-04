@@ -1,0 +1,18 @@
+.main__element {
+  padding: 25px 30px;
+}
+.main__element-title {
+  margin-bottom: 30px;
+}
+
+.main__element-text {
+  margin-bottom: 30px;
+}
+
+.main__element-image:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.font-size {
+  font-size: 0px;
+}
