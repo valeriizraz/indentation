@@ -30,10 +30,20 @@
   padding-bottom: 10px;
 }
 
+.nav-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
 .item-one:before {
   content: '1.';
   display: inline-block;
   color: #02535F;
+}
+
+.nav__link {
+  display: inline-block;
+  color: #02535F;
+  border-bottom: 1px solid #000;
 }
 
 .item-two:before {
@@ -46,14 +56,4 @@
   content: '3.';
   display: inline-block;
   color: #02535F;
-}
-
-.nav-item:not(:last-child) {
-  margin-bottom: 10px;
-}
-
-.nav__link {
-  display: inline-block;
-  color: #02535F;
-  border-bottom: 1px solid #000;
 }

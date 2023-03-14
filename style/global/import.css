@@ -1,0 +1,7 @@
+@import "normalize.css";
+@import "global.css";
+@import "../header/header.css";
+@import "../main/margin/margin.css";
+@import "../main/padding/padding.css";
+@import "../main/element/element.css";
+@import "../footer/footer.css";

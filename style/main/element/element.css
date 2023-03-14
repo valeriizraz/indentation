@@ -1,0 +1,49 @@
+.main__element {
+  padding: 25px 30px;
+}
+
+.element__title {
+  margin-bottom: 30px;
+}
+
+.element__text {
+  margin-bottom: 30px;
+}
+
+.element__image_scrin-browser-elements-li {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.element__image_scrin-dewtool-elements-li {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.element__image_scrin-code-html-elements-li-section {
+  width: 1080px;
+  font-size: 0;
+}
+
+.element__image_screen-browser-logo-nav-elements-li {
+  width: 1080px;
+}
+
+.element__image_screen-code-html-nav-list {
+  width: 806px;
+  margin: 0 auto;
+}
+
+.element__image_screen-header-menu-item-margin-right {
+  width: 317px;
+  margin: 0 auto;
+}
+
+.element__image_header-menu-item-last-child-margin-0-not-last-child {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.element__image:not(:last-child) {
+  margin-bottom: 30px;
+}

@@ -1,0 +1,51 @@
+.main__padding {
+  padding: 25px 30px;
+}
+
+.padding__title {
+  margin-bottom: 30px;
+}
+
+.padding__text:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.padding__imagecode_screen-margin-bottom-li {
+  width: 1080px;
+}
+
+.padding__image_browser-screen-margin-bottom-li {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.padding__image_dewtool-screen-margin-bottom-li {
+  width: 1080px;
+}
+
+.padding__image_code-screen-padding-top-section {
+  width: 964px;
+  margin: 0 auto;
+}
+
+.padding__image_dewtool-screen-padding-top-section {
+  width: 1022px;
+  margin: 0 auto;
+}
+
+.padding__image {
+  margin-bottom: 30px;
+}
+
+.padding__citata {
+  padding: 15px 30px;
+  color: #5E5E5E;
+}
+
+.padding__text-bold {
+  font-weight: 700;
+}
+
+.padding__text-italic {
+  font-style: italic;
+}

@@ -1,0 +1,58 @@
+.main__padding {
+  padding: 25px 30px;
+}
+
+.pading__title {
+  padding: 30px;
+}
+
+.padding__text:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.padding__text-italic {
+  font-style: italic;
+}
+
+.padding__image_codehtmlsection {
+  width: 1080px; 
+}
+
+.padding__image_screenbrowsersection {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.padding__image_screendewtoolsection {
+  width: 1080px;
+  padding: 15px;
+  border: 1px solid #000;
+}
+
+.padding__image-quote-img {
+  width: 1020px;
+  margin: 0 auto;
+  color: #5E5E5E;
+}
+
+.padding__img__margin_bottom {
+  margin-bottom: 30px;
+}
+
+.padding__text-bold {
+  font-weight: 700;
+}
+
+.padding__image_codehtmlsectiondivh2 {
+  width: 964px;
+  margin: 0 auto;
+}
+
+.padding__image_screendewtoolpaddingtop {
+  width: 1022px;
+  margin: 0 auto;
+}
+
+.padding__image {
+  margin-bottom: 30px;
+}
